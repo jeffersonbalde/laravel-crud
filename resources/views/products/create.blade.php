@@ -15,11 +15,11 @@
     <div class="container">
         <div class="row">
             <div class="d-flex justify-content-end p-0 mt-3">
-                <a href="{{ route(name: "products.create") }}" class="btn btn-dark">Create</a>
+                <a href="{{ route("products.index") }}" class="btn btn-dark">Back</a>
             </div>
 
             <div class="card p-0 mt-3">
-
+                
                 <div class="card-header bg-dark text-white">
                     <h4>Create Product</h4>
                 </div>
